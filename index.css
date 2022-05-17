@@ -5,12 +5,6 @@
     font-family: 'Poppins' , sans-serif;
 }
 
-body{
-    background-image: url("img/bois.jpg");
-    margin:0;
-    padding: 0;
-}
-
 .nav-wrapper{
     background-image: linear-gradient(to bottom right, burlywood, brown,burlywood,brown, burlywood);
     padding: 7.5px;
