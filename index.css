@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
+    /* font-family: 'Poppins' , sans-serif; */
 }
 
 nav{
@@ -15,7 +15,7 @@ nav{
 
 .font-image{
     background-image: url(img/math0.jpg);
-    height: 250px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +24,7 @@ nav{
 }
 
 h1{
-    color: rgb(255, 238, 2);
+    color: rgb(250, 250, 250);
 }
 
 a{
@@ -85,7 +85,7 @@ a{
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background: #823e3e;
+    background: #3f3f3f;
     cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ a{
     width: 100%;
     max-width:65%;
     height: 100%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(235, 235, 235);
     margin:25px 20%;
     padding:2.5%;
     box-sizing: border-box;
@@ -108,4 +108,25 @@ a{
 
 .essai>h1{
     color:black;
+}
+
+h3{
+    font-weight: lighter;
+}
+
+.endPage>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.endPage>ul>a{
+    font-weight: lighter;
+    padding: 10px 10px;
+}
+
+hr{
+    margin: 0px 25px;
 }
